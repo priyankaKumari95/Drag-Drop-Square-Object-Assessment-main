@@ -1,0 +1,61 @@
+body {
+  overflow: hidden;
+}
+
+.animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: skyblue;
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sqr {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 10px 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+}
+
+#sqr1 {
+  background-color: rgb(54, 54, 255);
+}
+
+#sqr2 {
+  background-color: rgb(255, 50, 50);
+  left: 110px;
+}
+
+#sqr3 {
+  background-color: rgb(39, 255, 39);
+  left: 220px;
+}
+#sqr4 {
+  background-color: rgb(255, 225, 56);
+  left: 330px;
+}
+#sqr5 {
+  background-color: rgb(255, 50, 211);
+  left: 440px;
+}
