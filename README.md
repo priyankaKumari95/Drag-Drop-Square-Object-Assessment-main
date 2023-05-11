@@ -1,4 +1,4 @@
-# Drag-Drop-Square-Object-Assessment
-# Host Link:- https://vermakhushbu723.github.io/Drag-Drop-Square-Object-Assessment/
+# Drag-Drop-Square-Object
+# Host Link:-https://priyankakumari95.github.io/Drag-Drop-Square-Object-Assessment-main/
 
-this project using HTML, CSS, Javascript.
+this project is using HTML, CSS, Javascript. It have some Suares and we can darg and drop these squares
